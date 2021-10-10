@@ -34,12 +34,13 @@ body {
   letter-spacing: 0.06em;
   color: var(--primery-title-color);
   cursor: pointer;
+  background-color: var(--accent-color);
 }
 .btn-bold:hover, .btn-bold:focus {
 color: var(--btn-bold-color);    
 }
 
-.filters-btn {
+.btn-filters {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -49,7 +50,7 @@ color: var(--btn-bold-color);
   color: var(--secondary-title-color);
   cursor: pointer;
 }
-.filters-btn:hover, .filters-btn:focus {
+.btn-filters:hover, .btn-filters:focus {
     color: var(--btn-bold-color);    
     }
 
