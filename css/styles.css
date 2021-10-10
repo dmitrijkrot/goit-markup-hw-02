@@ -33,6 +33,14 @@ body {
     letter-spacing: 0.06em;
     color: var(--primery-title-color);
     }
+.filters-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-title-color);
+}
 
 /* ----------------------heder------------------- */
 .logo-first {
@@ -84,7 +92,7 @@ color: var(--accent-color);
 }
 
 /*---------------------main-----------------------*/
-.hero-main {
+.hero-main {background-color: var(--primary-text-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -133,6 +141,26 @@ line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
+}
+
+.projects-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--secondary-title-color);
+}
+.project-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+/*------------------footer------------------*/
+
+.footer-hero {
+    background-color:var(--primary-text-color);
 }
 .footer-addres-item {
 font-weight: 400;
