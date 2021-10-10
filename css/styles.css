@@ -6,7 +6,8 @@
     --primery-title-color: #FFFFFF;
     --secondary-title-color: #212121;
     --accent-color: #2196F3;
-    --secondary-accent-color: #000000;
+    --first-accent-color: #000000;
+    --second-accent-color: #FFFFFF;
 
 }
 
@@ -23,7 +24,7 @@ body {
 }
 
 .btn-bold {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
     display: flex;
@@ -37,7 +38,7 @@ body {
 .logo-first {
 font-family: Raleway;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -47,11 +48,11 @@ color: var(--accent-color);
 .logo-second {
 font-family: Raleway;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: var(--secondary-accent-color);
+color: var(--first-accent-color);
 }
 
 .menu-link {
@@ -71,11 +72,11 @@ color: var(--primary-text-color);
 }
 
 .adress-tel {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
     }
 
 .menu-link:hover, .menu-link:focus, .adress-mail:hover, adress-mail:focus, .adress-tel:hover, adress-tel:focus  {
@@ -93,7 +94,7 @@ text-transform: uppercase;
 color: var(--primery-title-color);
 }
 .hero-link {
-font-weight: bold;
+font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -101,17 +102,60 @@ text-transform: uppercase;
 color: var(--secondary-title-color);
 }
 .hero-item-text {
-font-weight: normal;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color:var(--primary-text-color);
+color: var(--primary-text-color);
 }
 .first-title {
-font-weight: bold;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--secondary-title-color);
+}
+
+.about-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-title-color);
+}
+
+.about-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.footer-addres-item {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--third-text-color); 
+}
+.footer-list {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--second-text-color);    
+}
+
+
+.logo-third {
+font-family: Raleway;
+font-style: 400;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--second-accent-color);
 }
