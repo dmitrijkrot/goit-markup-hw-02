@@ -9,6 +9,7 @@
   --first-accent-color: #000000;
   --second-accent-color: #ffffff;
   --btn-bold-color: #FFFFFF;
+  --background-hero-footer-color: #2F303A;
 }
 
 body {
@@ -51,8 +52,9 @@ color: var(--btn-bold-color);
   cursor: pointer;
 }
 .btn-filters:hover, .btn-filters:focus {
-    color: var(--btn-bold-color);    
-    }
+  color: var(--btn-bold-color);
+  background-color: var(--accent-color);
+}
 
 /* ----------------------heder------------------- */
 .logo-first {
@@ -79,7 +81,7 @@ color: var(--btn-bold-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02em; 
   color: var(--header-color);
 }
 
@@ -90,6 +92,9 @@ color: var(--btn-bold-color);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.adress-mail:focus {
+  color: var(--accent-color);
+}
 
 .adress-tel {
   font-weight: 500;
@@ -98,7 +103,9 @@ color: var(--btn-bold-color);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-
+.adress-tel:focus {
+  color: var(--accent-color);
+}
 .menu-link:hover,
 .menu-link:focus,
 .adress-mail:hover,
@@ -110,7 +117,7 @@ adress-tel:focus {
 
 /*---------------------hero-----------------------*/
 .hero-main {
-  background-color: var(--primary-text-color);
+  background-color: var(--background-hero-footer-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -118,6 +125,10 @@ adress-tel:focus {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primery-title-color);
+}
+
+.centr-title {
+  display: none;
 }
 .hero-link {
   font-weight: 700;
@@ -175,9 +186,10 @@ adress-tel:focus {
 /*------------------footer------------------*/
 
 .footer-hero {
-  background-color: var(--primary-text-color);
+    background-color: var(--background-hero-footer-color);
 }
 .footer-addres-item {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -185,6 +197,7 @@ adress-tel:focus {
 }
 
 .footer-list {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
