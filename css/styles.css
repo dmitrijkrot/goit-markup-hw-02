@@ -1,14 +1,13 @@
 :root {
-  --header-color: #212121;
+  
+  --white-color: #FFFFFF;
+  --header-title-color: #212121;
   --primary-text-color: #757575;
   --second-text-color: rgba(255, 255, 255, 0.6);
-  --third-text-color: #ffffff;
-  --primery-title-color: #ffffff;
-  --secondary-title-color: #212121;
   --accent-color: #2196f3;
   --first-accent-color: #000000;
-  --second-accent-color: #ffffff;
-  --btn-bold-color: #FFFFFF;
+  
+  
   --background-hero-footer-color: #2F303A;
 }
 
@@ -33,33 +32,32 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--primery-title-color);
+  color: var(--white-color);
   cursor: pointer;
   background-color: var(--accent-color);
 }
 .btn-bold:hover, .btn-bold:focus {
-color: var(--btn-bold-color);    
+color: var(--white-color);    
 }
 
-.btn-filters {
+.filter-button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-title-color);
+  color: var(--header-title-color);
   cursor: pointer;
 }
-.btn-filters:hover, .btn-filters:focus {
-  color: var(--btn-bold-color);
+.filter-button:hover, .filter-button:focus {
+  color: var(--white-color);
   background-color: var(--accent-color);
 }
 
 /* ----------------------heder------------------- */
 .logo-first {
-  font-family: Raleway;
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -68,50 +66,36 @@ color: var(--btn-bold-color);
 }
 
 .logo-second {
-  font-family: Raleway;
-  font-style: normal;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--first-accent-color);
 }
-
+.menu-link.current {
+color: var(--accent-color);
+}
 .menu-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em; 
-  color: var(--header-color);
+  color: var(--header-title-color);
 }
 
-.adress-mail {
+.adress-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.adress-mail:focus {
+.adress-link:focus, .adress-link:hover {
   color: var(--accent-color);
 }
-
-.adress-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
-.adress-tel:focus {
-  color: var(--accent-color);
-}
-.menu-link:hover,
-.menu-link:focus,
-.adress-mail:hover,
-adress-mail:focus,
-.adress-tel:hover,
-adress-tel:focus {
+.menu-link:hover, .menu-link:focus
+{
   color: var(--accent-color);
 }
 
@@ -124,7 +108,10 @@ adress-tel:focus {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primery-title-color);
+  color: var(--white-color);
+}
+.filters {
+  display: none;
 }
 
 .centr-title {
@@ -136,7 +123,7 @@ adress-tel:focus {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-title-color);
+  color: var(--header-title-color);
 }
 .hero-item-text {
   font-size: 14px;
@@ -150,7 +137,7 @@ adress-tel:focus {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-title-color);
+  color: var(--header-title-color);
 }
 
 .about-title {
@@ -159,7 +146,7 @@ adress-tel:focus {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-title-color);
+  color: var(--header-title-color);
 }
 
 .about-text {
@@ -175,7 +162,7 @@ adress-tel:focus {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--secondary-title-color);
+  color: var(--header-title-color);
 }
 .project-text {
   font-size: 16px;
@@ -193,12 +180,11 @@ adress-tel:focus {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--third-text-color);
+  color: var(--white-color);
 }
 
 .footer-list {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -212,5 +198,5 @@ adress-tel:focus {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--second-accent-color);
+  color: var(--white-color);
 }
